@@ -1,4 +1,14 @@
+/*********** MAIN ************/
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
 /********** NAV BAR **********/
+
+.navbar {
+    background-color: #fff !important;
+}
 
 .navbar-brand {
     margin-left: 10%;
@@ -11,3 +21,83 @@
 .nav-link {
     margin-left: 15px;
 }
+
+li {
+    color: #394149 !important;
+}
+
+/********** HERO ********************/
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.7) 100%),
+        url('../images/hero_image.jpg');
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 500px;
+  }
+
+h1 {
+    padding: 9%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttons > button {
+    border-radius: 22px;
+    background-color: white;
+    margin: 7px;
+    padding: 10px 25px;
+    color: #394149;
+    border: 1px solid #394149;
+}
+
+.buttons > .contact-button {
+    background-color: #92AA83;
+    color: #FFF;
+    border: 1px solid #fff 
+}
+
+.contact-button:hover {
+    background-color: #394149;
+}
+
+.case-studies:hover {
+    background-color: #394149;
+    color: #fff;
+}
+
+/********** ABOUT ********************/
+
+.about {
+    align-items: center;
+    margin: 5% 20%;
+}
+
+.about > h2 {
+    border-bottom: 2px solid #394149;
+}
+
+
+/*********** MEDIA QUERIES **************/
+
+
+@media screen and (max-width: 945px) {
+
+    h1 {
+        font-size: 300%;
+    }
+    .buttons {
+        margin-top: 60px;
+     }
+
+    }
